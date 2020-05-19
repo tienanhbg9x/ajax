@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="84f18764-04e4-405d-a633-f832fcb3fe0f" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 =======
       <change afterPath="$PROJECT_DIR$/.idea/cake_config_setting_v0_6.xml" afterDir="false" />
@@ -16,6 +17,15 @@
       <change beforePath="$PROJECT_DIR$/resources/views/pagination.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pagination.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
 >>>>>>> e1c08b14021e6d64ef2bc412ac1c5c904b98f14a
+=======
+      <change afterPath="$PROJECT_DIR$/app/Billing/BankPaymentGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Billing/PaymentGatewayContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PayOrderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Orders/OrderDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/name.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 19b867a87e740a0462b7c06905e9395617ad3c73
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,13 +183,29 @@
       <workItem from="1589250346676" duration="2934000" />
       <workItem from="1589253668130" duration="2180000" />
       <workItem from="1589860891386" duration="4901000" />
+<<<<<<< HEAD
       <workItem from="1589883710268" duration="1436000" />
 >>>>>>> e1c08b14021e6d64ef2bc412ac1c5c904b98f14a
+=======
+      <workItem from="1589883710268" duration="2687000" />
+>>>>>>> 19b867a87e740a0462b7c06905e9395617ad3c73
     </task>
+    <task id="LOCAL-00001" summary="update billing">
+      <created>1589887235374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589887235374</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update billing" />
+    <option name="LAST_COMMIT_MESSAGE" value="update billing" />
   </component>
   <component name="WindowStateProjectService">
 <<<<<<< HEAD
@@ -192,11 +218,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="73" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589886314526" />
+    <state x="583" y="28" key="CommitChangelistDialog2" timestamp="1589887234588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="28" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589887234588" />
     <state x="776" y="318" key="NewPhpClassDialog" timestamp="1589862539325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="318" key="NewPhpClassDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589862539325" />
+<<<<<<< HEAD
 >>>>>>> e1c08b14021e6d64ef2bc412ac1c5c904b98f14a
+=======
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1589887236744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589887236744" />
+>>>>>>> 19b867a87e740a0462b7c06905e9395617ad3c73
     <state x="636" y="410" key="com.intellij.ide.util.TipDialog" timestamp="1588863324629">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
