@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 Route::get('/pagination', 'PaginationController@index');
 Route::get('/pagination/fetch_data', 'PaginationController@fetchData');
+
+Route::get('payments', 'PayOrderController@store')->name('payments.store');

@@ -9,15 +9,15 @@ class PaginationController extends Controller
 {
     public function index()
     {
-        $data = DB::table('users')->paginate(5);
-        return view('pagination',compact('data'));
+        $paginator = DB::table('users')->paginate(5);
+        return view('pagination',compact('paginator'));
     }
 
     public function fetchData(Request $request)
     {
         if($request->ajax()) {
-            $data = DB::table('users')->paginate(5);
-            return response()->json(view('pagination',compact('data'))->render());
+            $paginator = DB::table('users')->paginate(5);
+            return response()->json(view('pagination',compact('paginator'))->render());
         }
     }
 }
