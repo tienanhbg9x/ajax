@@ -10,12 +10,14 @@
             width:600px;
             margin:0 auto;
         }
+        .pagination a {
+            color: red;
+        }
     </style>
 </head>
 <body>
 <br />
 <div class="container">
-    <h3 align="center">Laravel Pagination using Ajax</h3><br />
     <div id="table_data">
         <div class="table-responsive">
             <table class="table table-striped table-bordered">
@@ -24,7 +26,7 @@
                     <th width="38%">Title</th>
                     <th width="57%">Description</th>
                 </tr>
-                @foreach($data as $row)
+                @foreach($paginator as $row)
                     <tr>
                         <td>{{ $row->id }}</td>
                         <td>{{ $row->name }}</td>
@@ -32,13 +34,13 @@
                     </tr>
                 @endforeach
             </table>
-            {!! $data->links() !!}
+            {{ $paginator->links() }}
         </div>
     </div>
 </div>
 <script>
     $(document).ready(function () {
-        $(document).on('click',".pagination a",function (e) {
+        $('.pagination a').unbind('click').on('click',function (e) {
             e.preventDefault();
             let page = $(this).attr('href').split('page=')[1];
             fetch_data(page);

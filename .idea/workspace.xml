@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84f18764-04e4-405d-a633-f832fcb3fe0f" name="Default Changelist" comment="" />
+    <list default="true" id="84f18764-04e4-405d-a633-f832fcb3fe0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/cake_config_setting_v0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testlaravel6x.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testlaravel6x.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PaginationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PaginationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pagination.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pagination.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +23,12 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -104,6 +121,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1baHWq9EPW4odLQyvBUeSBJtDNH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -111,6 +131,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -132,6 +153,10 @@
       <updated>1588863319495</updated>
       <workItem from="1588863326274" duration="477000" />
       <workItem from="1589204396778" duration="5205000" />
+      <workItem from="1589250346676" duration="2934000" />
+      <workItem from="1589253668130" duration="2180000" />
+      <workItem from="1589860891386" duration="4901000" />
+      <workItem from="1589883710268" duration="1436000" />
     </task>
     <servers />
   </component>
@@ -139,13 +164,23 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="703" y="73" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#" timestamp="1589886314526">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="703" y="73" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589886314526" />
+    <state x="776" y="318" key="NewPhpClassDialog" timestamp="1589862539325">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="318" key="NewPhpClassDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589862539325" />
     <state x="636" y="410" key="com.intellij.ide.util.TipDialog" timestamp="1588863324629">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="636" y="410" key="com.intellij.ide.util.TipDialog/1920.0.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1588863324629" />
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1589208951597">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state x="623" y="228" width="672" height="603" key="search.everywhere.popup" timestamp="1589861371966">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="623" y="228" width="672" height="603" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589861371966" />
+    <state x="623" y="228" width="672" height="603" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589251546489" />
     <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589208951597" />
   </component>
 </project>
