@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84f18764-04e4-405d-a633-f832fcb3fe0f" name="Default Changelist" comment="" />
+    <list default="true" id="84f18764-04e4-405d-a633-f832fcb3fe0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +14,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -104,6 +109,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1baHWq9EPW4odLQyvBUeSBJtDNH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -112,6 +118,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sns-line" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -131,7 +138,9 @@
       <option name="presentableId" value="Default" />
       <updated>1588863319495</updated>
       <workItem from="1588863326274" duration="477000" />
-      <workItem from="1589204396778" duration="5205000" />
+      <workItem from="1589204396778" duration="5803000" />
+      <workItem from="1589278854263" duration="154000" />
+      <workItem from="1589330700625" duration="14000" />
     </task>
     <servers />
   </component>
@@ -139,6 +148,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="339" key="FileChooserDialogImpl" timestamp="1589330709124">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="740" y="339" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589330709124" />
     <state x="636" y="410" key="com.intellij.ide.util.TipDialog" timestamp="1588863324629">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
