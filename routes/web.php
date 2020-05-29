@@ -25,3 +25,7 @@ Route::get('/postcards',function () {
     $postcardService = new \App\PostcardSendingService('us', 4, 6);
     $postcardService->hello('hello TienAnh Hoang','tienanhbg9x@gmail.com');
 });
+
+Route::get('/facades', function () {
+    \App\Postcard::hello('hello from facade','abc@123.com');
+});
