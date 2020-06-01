@@ -30,6 +30,11 @@ Route::get('/postcards',function () {
     $postcardService->hello('hello TienAnh Hoang','tienanhbg9x@gmail.com');
 });
 
+
+Route::get('/facades', function () {
+    \App\Postcard::hello('hello from facade','abc@123.com');
+});
+
 Route::get('/customers','CustomerController@index')->name('customers.index');
 Route::get('/customer/{customerId}','CustomerController@show')->name('customers.show');
 Route::get('/customer/{customerId}/update','CustomerController@update')->name('customers.update');

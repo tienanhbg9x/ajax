@@ -4,9 +4,13 @@ namespace App\Providers;
 
 use App\Billing\CreditPaymentGateway;
 use App\Billing\PaymentGateway;
+
+use App\PostcardSendingService;
+
 use App\Billing\PaymentGatewayContract;
 use App\Channel;
 use Illuminate\Support\Facades\View;
+
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -35,12 +39,19 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //truyền data qua view
+
+        $this->app->singleton('Postcard', function ($app) {
+            return new PostcardSendingService('us', 4, 6);
+
+            //truyền data qua view
 //        View::share('channels', Channel::query()
 //            ->orderBy('name')->get());
-        View::composer(['channel.create', 'channel.index'], function($view) {
-            $view->with('channels', Channel::query()
-            ->orderBy('name','DESC')->get());
+            View::composer(['channel.create', 'channel.index'], function ($view) {
+                $view->with('channels', Channel::query()
+                    ->orderBy('name', 'DESC')->get());
+            });
         });
     }
 }
+
+

@@ -4,6 +4,8 @@
 namespace App;
 
 
+use Illuminate\Support\Facades\Mail;
+
 class PostcardSendingService
 {
 
@@ -24,6 +26,6 @@ class PostcardSendingService
             $message->to($email);
         });
 
-        dump('postcard was sent with message:'.$message);
+        dd('postcard was sent with message:'.$message);
     }
 }
