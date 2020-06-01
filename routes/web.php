@@ -35,3 +35,32 @@ Route::get('/customer/{customerId}','CustomerController@show')->name('customers.
 Route::get('/customer/{customerId}/update','CustomerController@update')->name('customers.update');
 Route::get('/customer/{customerId}/delete','CustomerController@delete')->name('customers.update');
 
+Route::get('lazy', function () {
+//   $collection = \Illuminate\Support\Collection::times(1000000)->map(function ($number) {
+//       return pow(2, $number);
+//   })->all();
+//   return 'done!';
+    $collection = \Illuminate\Support\LazyCollection::times(1000000)
+        ->map(function ($number) {
+            return pow(2, $number);
+        })
+        ->all();
+
+    \App\User::cursor();
+    return 'done!';
+});
+
+Route::get('generator', function () {
+    function happyFunction($number)
+    {
+        for ($i = 1;$i < $number; $i++) {
+            yield $i;
+        }
+
+    }
+    foreach (happyFunction(100000) as $number) {
+        if($number % 1000 == 0) {
+            dump('what do you like');
+        }
+    }
+});

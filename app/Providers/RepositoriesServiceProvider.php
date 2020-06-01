@@ -25,6 +25,6 @@ class RepositoriesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->bind(CustomerRepositoryInterface::class, CustomerRepository::class);
+        $this->app->singleton(CustomerRepositoryInterface::class, CustomerRepository::class);
     }
 }
